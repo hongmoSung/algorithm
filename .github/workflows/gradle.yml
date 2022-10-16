@@ -40,5 +40,5 @@ jobs:
         id: gradle
         run: ./gradlew build --scan
 
-      - name: Run build with Gradle Wrapper
+      - name: Run test with Gradle Wrapper
         run: ./gradlew test --tests "*"
