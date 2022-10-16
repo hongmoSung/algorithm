@@ -5,6 +5,10 @@ plugins {
 group 'org.example'
 version '1.0-SNAPSHOT'
 
+wrapper {
+    gradleVersion= '7.4'
+}
+
 repositories {
     mavenCentral()
 }
