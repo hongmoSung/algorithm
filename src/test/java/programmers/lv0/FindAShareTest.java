@@ -32,7 +32,6 @@ class FindAShareTest {
      *     </Tbody>
      * </Table>
      */
-
     @Test
     void findAShareTest() {
         assertThat(findAShare.solution(10, 5)).isEqualTo(2);
