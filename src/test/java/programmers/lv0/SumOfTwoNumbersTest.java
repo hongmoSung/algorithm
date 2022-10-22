@@ -32,7 +32,6 @@ class SumOfTwoNumbersTest {
      * </Tbody>
      * </Table>
      */
-
     @Test
     void sumOfTwoNumbersTest() {
         assertThat(sumOfTwoNumbers.solution(2, 3)).isEqualTo(5);
